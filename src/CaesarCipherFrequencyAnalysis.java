@@ -1,7 +1,22 @@
-
+/** Project: Voynich Manuscript
+ * Purpose Details: Voynich Manuscript decryption
+ * Course: IST242
+ * Author: Ryan Zheng
+ * Date Developed: 11/28/24
+ * Last Date Changed: 12/1/24
+ * Rev: 2
+ * using latin/spanish/italian frequencies analysis for translation
+ */
 import java.io.*;
 import java.util.*;
 
+
+/**
+ * code was base on professor joe oakes CaesarCipher Frequency Analysis
+ * spanish frequency source: https://www.sttmedia.com/characterfrequency-spanish
+ * italian frequency source: https://www.sttmedia.com/characterfrequency-italian
+ * Latin frequency source: https://www.sttmedia.com/characterfrequency-latin
+ */
 public class CaesarCipherFrequencyAnalysis {
 
     // Combined letter frequencies for Latin, Spanish, and Italian
